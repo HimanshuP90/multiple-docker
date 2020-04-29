@@ -67,7 +67,7 @@ class Fib extends Component {
           <label>Enter your value:</label>
           <input
             value={this.state.value}
-            onChange={ev => this.setState({ value: ev.target.value })}
+            onChange={e => this.setState({ value: e.target.value })}
           />
           <button>Submit</button>
         </form>
